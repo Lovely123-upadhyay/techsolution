@@ -6,4 +6,5 @@
  *
  */
 module techsolution {
+	requires java.sql;
 }

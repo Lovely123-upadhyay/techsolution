@@ -1,9 +1,8 @@
 package com.masai.utility;
 
-
 import java.sql.Connection;
-
-
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class DBUtil {
 	
@@ -21,6 +20,8 @@ public class DBUtil {
 		
 		try {
 			conn = DriverManager.getConnection(url,"root","root");
+
+			
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
