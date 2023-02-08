@@ -5,8 +5,9 @@ The system will be available on an online platform for 24x7 access to the employ
 
 Employees of the organization uses IT based hardware for their daily work. If by some reason, these hardware goes down it is very important to take care of these hardware and in case of fault , that should be repaired in priority basis. To maintain and support these hardwares there exists a separate department, generally known as “SYSTEM ENGINEERS DEPARTMENT” . For any problem, concerned employee must report to this department. Engineers from this department take care of the problem.
 
-Tech-Stack : Java & MySQL
-Roles for the HOD:
+#Tech-Stack : Java & MySQL
+
+#Roles for the HOD:
 
 Login into the system
 Register a new Engineer with a username(email) and password
@@ -14,14 +15,17 @@ Can see List of all the Registered Engineers.
 Can Delete any Engineers from the system
 Can able to see all the raised problem.
 Can assign any problem to any Engineer.
-Roles of Engineer:
+
+
+#Roles of Engineer:
 
 Each engineer has their own account by which they can login.(credentials given by the HOD)
 Engineer can view the problem assigned to him by HOD .
 Engineer can update the status of the problem addressed by him . i. e. whether it solved or any thing .
 They can see list of all the problems attended by him/her.
 Engineer can change his password.
-Roles of Employee:
+
+#Roles of Employee:
 
 Employee can register himself with his username and password.
 Each employee has their account in the system with which they can login
@@ -30,6 +34,6 @@ Employee can see the status of their problem by using complain id . Status means
 They can see all complain history raised by him/her.
 Employee can change his/her password.
 
-FLOW CHART
+#FLOW CHART
 
 ![image](https://user-images.githubusercontent.com/61106375/217441565-7e04b69c-cf82-4bd5-8178-a44c46a0cbdd.png)
